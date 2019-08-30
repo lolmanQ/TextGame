@@ -61,9 +61,6 @@ namespace TextGame
 				case "hp":
 					health = health + Amount;
 					break;
-				case "atk":
-					attack = attack + Amount;
-					break;
 			}
 		}
 	}
