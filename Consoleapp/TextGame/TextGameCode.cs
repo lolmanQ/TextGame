@@ -89,11 +89,7 @@ namespace TextGame
 						return "inv";
 					case "exit":
 					case "die":
-						return "exit";
-					case "w1":
-						return "w1";
-					case "w2":
-						return "w2";
+                        return "exit";
 					default:
 						Console.WriteLine("Invalid retry");
 						break;
@@ -129,18 +125,6 @@ namespace TextGame
 			else if (inputAction == "inv")
 			{
 				character.DisplayInventory();
-			}
-			else if (inputAction == "w1")
-			{
-				world.SetMap("W1");
-				gameArray2D = world.Map;
-				RenderWorld();
-			}
-			else if (inputAction == "w2")
-			{
-				world.SetMap("W2");
-				gameArray2D = world.Map;
-				RenderWorld();
 			}
 			else
 			{
