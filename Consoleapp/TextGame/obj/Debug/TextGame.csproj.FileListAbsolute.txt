@@ -5,3 +5,10 @@ C:\Users\elias\Documents\GitHub\Csharp\Random code\Consoleapp\TextGame\obj\Debug
 C:\Users\elias\Documents\GitHub\Csharp\Random code\Consoleapp\TextGame\obj\Debug\TextGame.csproj.CoreCompileInputs.cache
 C:\Users\elias\Documents\GitHub\Csharp\Random code\Consoleapp\TextGame\obj\Debug\TextGame.exe
 C:\Users\elias\Documents\GitHub\Csharp\Random code\Consoleapp\TextGame\obj\Debug\TextGame.pdb
+A:\git code\TextGame\Consoleapp\TextGame\bin\Debug\TextGame.exe.config
+A:\git code\TextGame\Consoleapp\TextGame\bin\Debug\TextGame.exe
+A:\git code\TextGame\Consoleapp\TextGame\bin\Debug\TextGame.pdb
+A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.csprojAssemblyReference.cache
+A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.csproj.CoreCompileInputs.cache
+A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.exe
+A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.pdb
