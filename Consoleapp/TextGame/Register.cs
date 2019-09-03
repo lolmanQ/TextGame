@@ -68,7 +68,11 @@ namespace TextGame
             def = 0;
             for (int i = 0; i < ItemStatList.GetLength(0); i++)
             {
-
+                if (item == ItemStatList[i, 0])
+                {
+                    atk = int.Parse(ItemStatList[i, 2]);
+                    def = int.Parse(ItemStatList[i, 3]);
+                }
             }
         }
     }

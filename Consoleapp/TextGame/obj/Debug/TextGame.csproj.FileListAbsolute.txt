@@ -12,3 +12,10 @@ A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.csprojAssemblyRefere
 A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.csproj.CoreCompileInputs.cache
 A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.exe
 A:\git code\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.pdb
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\bin\Debug\TextGame.exe.config
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\bin\Debug\TextGame.exe
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\bin\Debug\TextGame.pdb
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.csprojAssemblyReference.cache
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.csproj.CoreCompileInputs.cache
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.exe
+C:\Users\elias\Documents\GitHub\TextGame\Consoleapp\TextGame\obj\Debug\TextGame.pdb

@@ -14,7 +14,7 @@ namespace TextGame
 		Register register = new Register();
 		public int[,] gameArray2D = new int[,]{};
 		public string currentWorld = "W1";
-		public bool exit = false;
+		public static bool exit = false;
 		public int playerRow;
 		public int playerColumn;
 
@@ -89,6 +89,7 @@ namespace TextGame
 						return "inv";
 					case "exit":
 					case "die":
+                        exit = true;
                         return "exit";
 					default:
 						Console.WriteLine("Invalid retry");
