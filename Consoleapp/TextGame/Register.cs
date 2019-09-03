@@ -61,5 +61,15 @@ namespace TextGame
 			Console.WriteLine("id" + Id);
 			return "error";
 		}
-	}
+
+        public void GetStatForItem(string item , out int atk, out int def)
+        {
+            atk = 0;
+            def = 0;
+            for (int i = 0; i < ItemStatList.GetLength(0); i++)
+            {
+
+            }
+        }
+    }
 }

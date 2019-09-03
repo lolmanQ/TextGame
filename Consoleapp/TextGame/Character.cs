@@ -52,7 +52,7 @@ namespace TextGame
 
         public void EquipItem(string item)
         {
-
+            
         }
 
 		public List<string> GetInventory()
@@ -75,10 +75,5 @@ namespace TextGame
 
         }
 
-        public void GetStatForItem(out int atk, out int def)
-        {
-            atk = 0;
-            def = 0;
-        }
     }
 }
