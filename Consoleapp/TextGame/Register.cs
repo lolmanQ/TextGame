@@ -31,10 +31,10 @@ namespace TextGame
 
         public string[,] ItemStatList = new string[,]
         {
-            {"0000", "0", "0"},
-            {"0001", "10", "0"},
-            {"0002", "0", "10"},
-            {"0003", "0", "0"}
+            {"0000","none", "0", "0"},
+            {"0001", "weapon", "10", "0"},
+            {"0002", "backpack", "0", "5"},
+            {"0003", "none", "0", "0"}
         };
 
 		public string GetId(string name)

@@ -3,3 +3,4 @@ Consoleapp/.vs/Consoleapp/v15/Server/sqlite3/db.lock
 Consoleapp/.vs/Consoleapp/v15/Server/sqlite3/storage.ide
 Consoleapp/.vs/Consoleapp/v15/Server/sqlite3/storage.ide-wal
 Consoleapp/.vs/Consoleapp/v15/Server/sqlite3/storage.ide-shm
+*.lock

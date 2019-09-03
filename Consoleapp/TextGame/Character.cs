@@ -10,15 +10,16 @@ namespace TextGame
 	{
 		Register register = new Register();
 		public static int health = 100;
-		public static int attack = 10;
+		public static int attack = 0;
+        public static int defence = 0;
 		public static List<string> inventory = new List<string>();
+        public static List<string> equiptItems = new List<string>();
 
 
 
 		public void StatReset()
 		{
 			health = 100;
-			attack = 10;
 		}
 
 		public void DisplayStats()
@@ -49,6 +50,11 @@ namespace TextGame
 			inventory.Add(item);
 		}
 
+        public void EquipItem(string item)
+        {
+
+        }
+
 		public List<string> GetInventory()
 		{
 			return inventory;
@@ -63,5 +69,16 @@ namespace TextGame
 					break;
 			}
 		}
-	}
+
+        public void CalculatePlayerStats()
+        {
+
+        }
+
+        public void GetStatForItem(out int atk, out int def)
+        {
+            atk = 0;
+            def = 0;
+        }
+    }
 }
