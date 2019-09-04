@@ -75,5 +75,17 @@ namespace TextGame
                 }
             }
         }
+
+        public void GetCategoryForItem(string item, out string category)
+        {
+            category = "";
+            for (int i = 0; i < ItemStatList.GetLength(0); i++)
+            {
+                if (item == ItemStatList[i, 0])
+                {
+                    category = ItemStatList[i, 1];
+                }
+            }
+        }
     }
 }

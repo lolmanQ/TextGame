@@ -50,11 +50,6 @@ namespace TextGame
 			inventory.Add(item);
 		}
 
-        public void EquipItem(string item)
-        {
-            
-        }
-
 		public List<string> GetInventory()
 		{
 			return inventory;
@@ -75,5 +70,20 @@ namespace TextGame
 
         }
 
+        public void EquipItem()
+        {
+            string[] currentInventory = new string[] { };
+            //Console.WriteLine("What item do you want to equip:");
+            string itemToEquip = Console.ReadLine();
+            itemToEquip = itemToEquip.ToLower();
+            currentInventory = GetInventory().ToArray();
+            for (int i = 0; i < currentInventory.Length; i++)
+            {
+                if (itemToEquip == currentInventory[i].ToLower())
+                {
+                    if (itemToEquip)
+                }
+            }
+        }
     }
 }
