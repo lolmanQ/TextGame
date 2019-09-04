@@ -50,5 +50,10 @@ namespace TextGame
 			}
 		}
 
+        public void EquipItemLoop()
+        {
+            
+        }
+
 	}
 }

@@ -13,7 +13,13 @@ namespace TextGame
 		public static int attack = 0;
         public static int defence = 0;
 		public static List<string> inventory = new List<string>();
-        public static List<string> equiptItems = new List<string>();
+        public static string[,] equiptItems = new string[5,2] {
+            {"weapon", "none" },
+            {"shield", "none" },
+            {"helmet", "none" },
+            {"chestplate", "none" },
+            {"legplate", "none" }
+        };
 
 
 
@@ -70,9 +76,10 @@ namespace TextGame
 
         }
 
-        public void EquipItem()
+        public bool EquipItem()
         {
             string[] currentInventory = new string[] { };
+            string[] currentEquipt = new string[] { };
             //Console.WriteLine("What item do you want to equip:");
             string itemToEquip = Console.ReadLine();
             itemToEquip = itemToEquip.ToLower();
@@ -81,9 +88,13 @@ namespace TextGame
             {
                 if (itemToEquip == currentInventory[i].ToLower())
                 {
-                    if (itemToEquip)
+                    for(int i2 = 0; i2 < equiptItems.GetLength(0); i2++)
+                    {
+                        return true;
+                    }
                 }
             }
+            return false;
         }
     }
 }
