@@ -88,6 +88,7 @@ namespace TextGame
             {
                 if (itemToEquip == currentInventory[i].ToLower())
                 {
+                    
                     for(int i2 = 0; i2 < equiptItems.GetLength(0); i2++)
                     {
                         return true;
